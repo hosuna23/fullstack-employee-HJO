@@ -8,3 +8,4 @@ await db.connect();
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}...`);
 });
+console.log("DB:", process.env.DATABASE_URL);
